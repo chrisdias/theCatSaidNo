@@ -1,8 +1,10 @@
 body {
   font-family: 'Montserrat', 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
   color: #6b7381;
-  background: #f2f2f2;
+  background: white;
+  transition: background-color 0.25s;
 }
+
 .jumbotron {
   background: #6b7381;
   color: #bdc1c8;
@@ -50,12 +52,10 @@ body {
   margin: 0 4rem;
   padding: 0;
   position: relative;
-  border: none;
   height: 1.5rem;
   width: 3rem;
-  border-radius: 1.5rem;
   color: #6b7381;
-  background: #bdc1c8;
+  border: 1.5rem solid #323130;
 }
 .btn-toggle:focus,
 .btn-toggle.focus,
@@ -94,6 +94,7 @@ body {
   transition: left 0.25s;
 }
 .btn-toggle.active {
+  box-shadow: none;
   transition: background-color 0.25s;
 }
 .btn-toggle.active > .handle {
@@ -111,13 +112,13 @@ body {
   color: #6b7381;
 }
 .btn-toggle.active {
-  background-color: #29b5a8;
+  border-color: #0078d4;
+  background-color: #0078d4;
 }
 .btn-toggle.btn-lg {
   margin: 0 5rem;
   padding: 0;
   position: relative;
-  border: none;
   height: 30rem;
   width: 60rem;
   border-radius: 30rem;
@@ -150,20 +151,23 @@ body {
 }
 .btn-toggle.btn-lg > .handle {
   position: absolute;
-  top: 3.75rem;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
   left: 3.75rem;
   width: 22.5rem;
   height: 22.5rem;
   border-radius: 22.5rem;
-  background: #fff;
+  background: #323130;
   transition: left 0.25s;
 }
 .btn-toggle.btn-lg.active {
   transition: background-color 0.25s;
 }
 .btn-toggle.btn-lg.active > .handle {
+  background-color: white;
   left: 33.75rem;
-  transition: left 0.25s;
+  transition: all 0.25s;
 }
 .btn-toggle.btn-lg.active:before {
   opacity: 0.5;
@@ -188,6 +192,7 @@ body {
   transition: transform 0.6s;
 }
 .catpaw-image {
+  margin-left: 340px;
   height: 100%;
   transform: rotate(180deg);
 }
