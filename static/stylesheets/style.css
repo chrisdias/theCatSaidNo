@@ -2,6 +2,12 @@ body {
   font-family: 'Montserrat', 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
   color: #6b7381;
   background: white;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
   transition: background-color 0.25s;
 }
 
@@ -55,6 +61,7 @@ body {
   height: 1.5rem;
   width: 3rem;
   color: #6b7381;
+  background-color: transparent;
   border: 1.5rem solid #323130;
 }
 .btn-toggle:focus,
