@@ -31,5 +31,5 @@ jobs:
 
     - uses: azure/appservice-actions/webapp@master
       with:
-        app-name: cdias-usefulsite-1234-staging
-        publish-profile: ${{ secrets.publishStaging}}
+        app-name: pushTheButton-staging
+        publish-profile: ${{ secrets.publishStaging }}
