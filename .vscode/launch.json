@@ -5,22 +5,14 @@
     "version": "0.2.0",
     "compounds": [
         {
-            "name": "Client - Server",
+            "name": "Client + Server",
             "configurations": [
                 "Python: Flask",
-                "Edge Elements"
+                "Edge: Browser"
             ]
         }
     ],
     "configurations": [
-        {
-            "type": "vscode-edge-devtools.debug",
-            "request": "launch",
-            "name":  "Edge Elements",
-            "url": "http://localhost:5000",
-            "webRoot": "${workspaceFolder}"
-        },
-
         {
             "name": "Python: Flask",
             "type": "python",
@@ -33,7 +25,7 @@
             },
             "args": [
                 "run",
-                // "--no-debugger",
+                "--no-debugger",
                 "--no-reload"
             ],
             "jinja": true
@@ -41,11 +33,18 @@
         {
             "type": "edge",
             "request": "launch",
-            "version": "dev",
-            "name": "Launch Edge",
+            "version": "beta",
+            "name": "Edge: Browser",
             "url": "http://localhost:5000",
             "webRoot": "${workspaceFolder}",
             "breakOnLoad": true
+        },
+        {
+            "type": "vscode-edge-devtools.debug",
+            "request": "launch",
+            "name": "Edge: Inspector",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
