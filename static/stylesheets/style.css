@@ -62,7 +62,7 @@ body {
   width: 3rem;
   color: #6b7381;
   background-color: transparent;
-  border: 1.5rem solid #323130;
+  border: 1.5rem solid #0078d4;
 }
 .btn-toggle:focus,
 .btn-toggle.focus,
@@ -165,7 +165,7 @@ body {
   width: 22.5rem;
   height: 22.5rem;
   border-radius: 22.5rem;
-  background: #323130;
+  background: #0078d4;
   transition: left 0.25s;
 }
 .btn-toggle.btn-lg.active {
