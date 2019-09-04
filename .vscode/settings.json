@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/065849c9-c0c8-43d0-874c-01c7b295a1bc/resourceGroups/cdias-usefulsite-rg/providers/Microsoft.Web/sites/cdias-usefulsite-1234/slots/development",
+    "appService.deploySubpath": ""
+}
