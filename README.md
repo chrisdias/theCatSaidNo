@@ -1,3 +1,3 @@
-Press the button!
+Push the button!
 
 ![alt](./assets/button.png)
