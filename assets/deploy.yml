@@ -1,0 +1,4 @@
+    - uses: azure/appservice-actions/webapp@master
+      with:
+        app-name: pushTheButton-staging
+        publish-profile: ${{ secrets.publishStaging }}
