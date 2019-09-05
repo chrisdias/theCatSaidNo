@@ -9,6 +9,6 @@
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
-    "appService.defaultWebAppToDeploy": "/subscriptions/065849c9-c0c8-43d0-874c-01c7b295a1bc/resourceGroups/pusTheButton-rg/providers/Microsoft.Web/sites/pushthebutton/slots/development",
+    "appService.defaultWebAppToDeploy": "/subscriptions/065849c9-c0c8-43d0-874c-01c7b295a1bc/resourceGroups/theCatSaidNo-rg/providers/Microsoft.Web/sites/thecatsaidno/slots/development",
     "appService.deploySubpath": ""
 }
