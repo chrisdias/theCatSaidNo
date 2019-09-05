@@ -38,13 +38,6 @@
             "url": "http://localhost:5000",
             "webRoot": "${workspaceFolder}",
             "breakOnLoad": true
-        },
-        {
-            "type": "vscode-edge-devtools.debug",
-            "request": "launch",
-            "name": "Edge: Inspector",
-            "url": "http://localhost:5000",
-            "webRoot": "${workspaceFolder}"
         }
     ]
 }
