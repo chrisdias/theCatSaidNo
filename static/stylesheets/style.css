@@ -204,7 +204,7 @@ body {
   transform: rotate(180deg);
 }
 .catpaw-extended {
-  transform: translate(-50%, -80%);
+  transform: translate(-50%, -90%);
 }
 .preload * {
   -webkit-transition: none !important;
