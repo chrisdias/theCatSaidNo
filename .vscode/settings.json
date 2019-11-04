@@ -1,14 +1,17 @@
 {
-    "python.pythonPath": "/usr/local/bin/python",
-    "appService.zipIgnorePattern": [
-        ".vscode{,/**}"
-    ],
-    "python.testing.pytestArgs": [
-        "."
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "appService.defaultWebAppToDeploy": "/subscriptions/065849c9-c0c8-43d0-874c-01c7b295a1bc/resourceGroups/theCatSaidNo-rg/providers/Microsoft.Web/sites/thecatsaidno/slots/development",
-    "appService.deploySubpath": ""
+    "peacock.color": "#557c9b",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#7295b1",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#e8d6e0",
+        "activityBarBadge.foreground": "#15202b",
+        "titleBar.activeBackground": "#557c9b",
+        "titleBar.inactiveBackground": "#557c9b99",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#557c9b",
+        "statusBarItem.hoverBackground": "#7295b1",
+        "statusBar.foreground": "#e7e7e7"
+    }
 }
