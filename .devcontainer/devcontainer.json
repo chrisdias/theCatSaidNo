@@ -1,5 +1,5 @@
 {
-	"name": "Python Sample",
+	"name": "The Cat Said No",
 	"dockerFile": "Dockerfile",
 
 	// Specifies a list of ports that should be published from the container.
