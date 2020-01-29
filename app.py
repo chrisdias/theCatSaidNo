@@ -12,7 +12,7 @@ def favicon():
 @app.route("/")
 def home():
     
-    # myPlatform = sys.platform
+    myPlatform = sys.platform
     
     return render_template("home.html")
 
