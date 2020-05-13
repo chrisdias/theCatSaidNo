@@ -1,4 +1,4 @@
-Push the button!
+# Push the button!
 
 ![alt](./assets/button.png)
 
@@ -14,7 +14,7 @@ This site runs on Python version 3.
 git clone https://github.com/chrisdias/thecatsaidno.git
 cd thecatsaidno
 pip3 install -r ./requirements.txt
-flast run
+flask run
 ```
 
 Browse to http://localhost:5000
