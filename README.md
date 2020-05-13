@@ -10,7 +10,7 @@ This site runs on Python version 3.
 
 # Build and Run
 
-``` 
+``` bash
 git clone https://github.com/chrisdias/thecatsaidno.git
 cd thecatsaidno
 pip3 install -r ./requirements.txt
