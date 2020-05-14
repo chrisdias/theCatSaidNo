@@ -13,7 +13,6 @@ def favicon():
 def home():
     
     myPlatform = sys.platform
-    print (myPlatform)
     
     return render_template("home.html")
 
