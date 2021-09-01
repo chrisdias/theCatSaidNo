@@ -22,5 +22,3 @@ Browse to http://localhost:5000
 # License
 [MIT](./LICENSE)
 
-## Hello from the web
-
